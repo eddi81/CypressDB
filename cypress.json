@@ -2,7 +2,7 @@
     "db": {
         "userName": "edi",
         "password": "f3d0rA!1990",
-        "server": "ediaserver.database.windows.net        ",
+        "server": "ediaserver.database.windows.net",
         "options": {
             "database": "edi",
             "encrypt": true,

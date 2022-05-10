@@ -22,8 +22,9 @@
 //}
 
 const sqlServer = require('cypress-sql-server');
+const dbConfig = require('../../cypress.json')
 
 module.exports = (on, config) => {
-  tasks = sqlServer.loadDBPlugin(config.db);
+  tasks = sqlServer.loadDBPlugin(dbConfig.db);
   on('task', tasks);
 }
